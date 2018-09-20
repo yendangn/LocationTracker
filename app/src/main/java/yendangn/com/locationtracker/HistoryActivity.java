@@ -48,7 +48,7 @@ public class HistoryActivity extends FragmentActivity implements OnMapReadyCallb
 
 
                     PolylineOptions polylineOptions = new PolylineOptions();
-                    polylineOptions.width(5);
+                    polylineOptions.width(10);
                     polylineOptions.color(Color.RED);
 
                     for (MyLocation location : myLocations) {
